@@ -1,0 +1,32 @@
+.home {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4P-GGuJFuOahrlMPG1uJMsAE2BC27IcQVRA&s");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  height: auto;
+  color: white;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(28, 27, 27, 0.5);
+  z-index: 0;
+}
+
+.home > *:not(.navbar) {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .home {
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
