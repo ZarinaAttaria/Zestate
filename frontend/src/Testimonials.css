@@ -81,7 +81,7 @@
 }
 
 .testimonial-card {
-  flex: 0 0 100%;
+  /* flex: 0 0 100%; */
   /* padding: 0px; */
   background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
