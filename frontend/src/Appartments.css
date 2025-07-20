@@ -62,10 +62,11 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+  transform-origin: center center; /* Ensures zoom starts from center */
 }
 
 .property:hover .property-image {
-  transform: scale(1.03);
+  transform: scale(1.1); /* Increased zoom level for better effect */
 }
 
 .badge {

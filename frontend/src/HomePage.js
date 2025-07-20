@@ -7,6 +7,7 @@ import Why from "./Why";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
+import TrustedBy from "./TrustedBy";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
       <Appartments />
       <Why />
       <Testimonials />
+      <TrustedBy />
       <Contact />
       <Footer />
     </>

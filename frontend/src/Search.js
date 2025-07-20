@@ -7,7 +7,7 @@ const Search = () => {
       <h1>Your Path to Lucrative Deals!</h1>
       <h3>
         Unlock Success with High-End Services For Profitable Selling with Top
-        Rated Real Estate in Dubai
+        Rated Real Estate in Pakistan
       </h3>
 
       <div className="filter-Buttons">
